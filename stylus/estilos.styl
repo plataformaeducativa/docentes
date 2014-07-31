@@ -1,0 +1,286 @@
+@css {
+/*  CSS3 Clases - Luis Gago Casas  */
+}
+@import 'nib/vendor'
+@import 'normalize.css'
+@import 'simplegrid.styl'
+@import 'keyframes.styl'
+@import 'icomoon.styl'
+vendor-prefixes = o ms moz webkit
+@font-face
+	font-family 'Open Sans'
+	font-style normal
+	font-weight 400
+	src local('Open Sans'), local('OpenSans'), url("../fonts/opensans.woff") format('woff')
+border-radius()
+	-webkit-border-radius arguments
+	-moz-border-radius arguments
+	ms-border-radius arguments
+	o-border-radius arguments
+	border-radius arguments
+appearance()
+	-webkit-appearance arguments
+	-moz-appearance arguments
+	ms-appearance arguments
+	o-appearance arguments
+	appearance arguments
+box-shadow()
+	-webkit-box-shadow arguments
+	-moz-box-shadow arguments
+	ms-box-shadow arguments
+	o-box-shadow arguments
+	box-shadow arguments
+transform()
+	-webkit-transform arguments
+	-moz-transform arguments
+	ms-transform arguments
+	o-transform arguments
+	transform arguments
+body
+	background #45505C
+	font-family "Open Sans"
+	font-size 16px
+	/**/
+.fondito
+	background #fffbe5
+	border-color #fff1d3
+	border-radius 0px 20px 0px 20px
+	box-shadow 0px 0px 10px rgba(0, 0, 0, 0.3)
+	height 152px
+.space
+	margin 10px 0px
+	padding-right 5px
+.boton
+	background #f8f8f8
+	background linear-gradient(white, #eee)
+	border 1px solid #cdcdcd
+	border-radius 4px
+	box-shadow 0 1px 1px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.5)
+	color #3b65a7
+	cursor pointer
+	display inline-block
+	font-size 12px
+	font-weight bold
+	line-height 20px
+	margin 0
+	padding 3px 16px
+	text-align center
+	vertical-align middle
+.azul-claro
+	color #41864F
+	font-size 15px
+.gridcorrec1
+	padding-right 0px !important
+.gridcorrec2
+	padding-right 5px  !important
+.clr1
+	background-color #2264AA
+	color #fff
+.btn1
+	box-shadow inset 0 -3px rgba(0,0,0,.25)
+	width 8.5em
+	display inline-block
+	line-height 1
+	border-radius .1875em
+	margin 5px 0px
+	padding 10px 10px
+	font-size 16px
+	&:hover
+		opacity .92
+		cursor pointer
+	/**/
+#cuerpo
+	background-color #dde3e6
+	border-radius 6px
+	box-shadow 0px 0px 10px #000
+	margin 0px auto 0px auto
+	padding 0px 0px 0px 0px
+	width 950px
+.cabeza
+	background-color #2EB4D6
+	border-radius 4px 4px 0px 0px
+	margin 15px 0px 0px 0px
+	padding 5px 0 5px 0px
+	text-align center
+	z-index 2
+	h1
+		color #FFF
+		display inline-block
+		font-size 22px
+		letter-spacing 10px
+	.logos
+		display inline-block
+		text-align right
+		vertical-align middle
+		width 530px
+		figure
+			cursor pointer
+			display inline-block
+			margin 0px 0px 0px 0px
+			width 170px
+			img
+				vertical-align top
+				width 130px
+				zoom 1
+.buscador, .palabras, .institucion
+	margin 10px auto
+.blo-primero
+	padding-left 20px !important
+.buscador
+	text-align center
+.search
+	background-color #0477ab
+	height 46px
+	width 275px
+.input
+	border none
+	border-radius 5px
+	width 95%
+	padding 7px 10px
+	box-sizing border-box
+	outline 0
+	margin 5px 0px 0px 0px
+	/*.palabras*/
+.palabras
+	background-color #04AB76
+	height 46px
+	width 297px
+	text-align center
+.letra
+	text-decoration none
+	line-height 20px
+	font-size 16px
+	color #FFF
+	/*.institucion*/
+.institucion
+	background-color #DFCF15
+.docentes
+	margin 10px auto 0px auto
+	padding 0px 0px 0px 0px
+	text-align center
+	width 95%
+.foto, .detalles
+	display inline-block
+	vertical-align top
+.foto
+	width 39%
+	img
+		width 100%
+		border-radius 0px 0px 0px 20px
+		height 152px
+.detalles
+	width 59%
+	max-height 155px
+	overflow hidden
+	word-wrap break-word
+	.nombre
+		color #333
+		font-size 20px
+		display inline-block
+		margin 10px 0px
+	.ver_perfil
+		background #59a30e
+		background -webkit-linear-gradient(#5eac0f, #559b0d)
+		background linear-gradient(#5eac0f, #559b0d)
+		border 1px solid #4f910d
+		margin 10px 0px
+		padding 7px 16px
+		text-shadow 0 -1px 0 #2f8e2f
+		&:hover
+			background #64b214
+			background linear-gradient(#64b214, #559b0d)
+		span
+			color #fff
+			font-size 14px
+.mensaje
+	border-radius 5px
+	box-shadow 0px 0px 10px #000
+	height auto
+	left 50%
+	margin-left -450px
+	padding 5px 5px 5px 5px
+	position fixed
+	top 89px
+	transition opacity 0.3s
+	width 900px
+	z-index 11520
+	.texto
+		background #FFF
+		border-radius 5px
+		box-sizing border-box
+		display inline-block
+		padding 2px 5px 5px 5px
+		width 100%
+		h2
+			color #333
+			font-size 1.2em
+			text-align center
+	.cerrar
+		background #000
+		border-radius 20px
+		box-shadow 0px 0px 2px #FFF
+		color #FFF
+		cursor pointer
+		display block
+		font-size 15px
+		height 15px
+		line-height 5px
+		margin -5px -5px 0px 0px
+		padding 4px
+		position absolute
+		right 0px
+		top 0px
+		width 15px
+.overlay
+	background rgba(0,0,0,0.5)
+	position fixed
+	top 0
+	bottom 0
+	left 0
+	right 0
+	cursor default
+.profesor
+	text-align center
+	.nombres
+		background-color #f0f3f8
+		border-color #cbd6e7
+		color #c41200
+	.lista
+		padding 0px
+		margin 10px 0px 5px 0px
+		li
+			text-align left
+			padding 5px 0px
+			border-bottom 1px solid rgba(204, 204, 204, 0.4)
+			a
+				color #2f8e2f
+				text-decoration none
+				&:hover
+					text-decoration underline
+	img
+		width 150px
+.horario
+	text-align center
+	iframe
+		min-height 460px
+	.horario_tab
+		position absolute
+		margin 10px 30px 0 0
+		right 0
+		top 0
+		font-size 20px
+		a
+			text-decoration none
+			span
+				color #F00
+footer
+	background-color #3b65a7
+	border-radius 0px 0px 4px 4px
+	color #ffc
+	font-size 15px
+	margin 10px 0px 0px 0px
+	padding 5px
+	text-align center
+	a
+		color #FFF
+		text-decoration none
