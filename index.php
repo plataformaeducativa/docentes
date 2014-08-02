@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.lazyload.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div id="cuerpo">
@@ -23,19 +24,19 @@
                 </figure>
             </div>
         </div>
-        <section class="total">
+        <section class="filter">
             <div class="grid grid-pad">
-                <div class="col-1-3 blo-primero">
-               <div class="content">
-                   <section class="buscador">
-                        <form action="buscar.php" class="search" method="post">
-                            <input type="text" name="p" class="input" placeholder="Buscar...">
+                <div class="col-3-12 blo-primero">
+                    <section class="buscador">
+                        <form method="post" id="search">
+                            <input type="search" name="p" class="input" id="bc" autocomplete="off" required placeholder="Buscar Ejem: Medina">
                         </form>
                     </section>
-               </div>
-            </div>
-            <div class="col-1-3">
-               <div class="content">
+                </div>
+                <div class="col-1-12">
+                    &nbsp;
+                </div>
+                <div class="col-8-12">
                    <section class="palabras">
                         <a href="" class="letra">a</a>
                         <a href="" class="letra">b</a>
@@ -65,31 +66,11 @@
                         <a href="" class="letra">y</a>
                         <a href="" class="letra">z</a>
                     </section>
-               </div>
-            </div>
-            <div class="col-1-3">
-               <div class="content">
-                   <section class="institucion">
-                        <select name="">
-                            <optgroup label="Cursos">
-                                <option value="">Matematica</option>
-                                <option value="">Quimica I</option>
-                                <option value="">Quimica II</option>
-                                <option value="">Comunicación</option>
-                                <option value="">Desarrollo Humano</option>
-                                <option value="">Ecología</option>
-                                <option value="">Economía General</option>
-                                <option value="">Filosofía</option>
-                                <option value="">Informática</option>
-                            </optgroup>
-                        </select>
-                    </section>
-               </div>
-            </div>
+                </div>
             </div>
         </section>
         <section class="docentes">
-            <div class="grid grid-pad">
+            <div class="grid grid-pad w95" id="profesores">
                 <?=docente::verprofesores($_GET['tutores']); ?>
             </div>
         </section>
@@ -99,7 +80,6 @@
         </footer>
     </div>
     <div id="mensaje"></div>
-    <script src="js/main.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

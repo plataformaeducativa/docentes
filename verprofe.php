@@ -36,7 +36,7 @@
                            <ul class="lista">
                                 <li><span class="icon-user azul-claro"></span> <a href="'.$profesor["perfil"].'" target="_blank">Ver Perfil</a></li>
                                 <li><span class="icon-mail azul-claro"></span> <a href="'.$profesor["mensaje"].'" target="_blank">Enviar Mensaje</a></li>
-                                <br/><div class="btn1 clr1"><span class="icon-download"></span> Descargar</div>
+                                <br/><div class="btn1 clr1"><span class="icon-download"></span> Descargar Horario </div>
                             </ul>
                        </div>
                     </div>

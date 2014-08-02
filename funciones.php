@@ -4,7 +4,7 @@ class docente{
 		if($filtro1=="true"){ $filtro = "tutoresvirtuales='1' and"; }
 		$respcont = mysql_query("select * from comp_docente where $filtro periodo20141='1' ORDER BY apellido ASC");
 		while($profesor = mysql_fetch_array($respcont)){ ?>
-<div class="col-1-3 space">
+			<div class="col-1-3 space">
 			    <div class="content fondito">
 			        <div class="foto">
 			        	<img class="lazy" data-original="<?=docente::verfoto($profesor['id_docente']); ?>" title="<?=$profesor['nombre']." ".$profesor['apellido']; ?>">
