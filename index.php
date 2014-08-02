@@ -14,7 +14,7 @@
 <body>
     <div id="cuerpo">
         <div class="cabeza">
-            <h1>DOCENTES</h1>
+            <h1><a href=".">DOCENTES</a></h1>
             <div class="logos">
                 <figure id="logo1">
                     <img src="img/plataforma.png">
@@ -38,33 +38,33 @@
                 </div>
                 <div class="col-8-12">
                    <section class="palabras">
-                        <a href="" class="letra">a</a>
-                        <a href="" class="letra">b</a>
-                        <a href="" class="letra">c</a>
-                        <a href="" class="letra">d</a>
-                        <a href="" class="letra">e</a>
-                        <a href="" class="letra">f</a>
-                        <a href="" class="letra">g</a>
-                        <a href="" class="letra">h</a>
-                        <a href="" class="letra">i</a>
-                        <a href="" class="letra">j</a>
-                        <a href="" class="letra">k</a>
-                        <a href="" class="letra">l</a>
-                        <a href="" class="letra">m</a>
-                        <a href="" class="letra">n</a>
-                        <a href="" class="letra">ñ</a>
-                        <a href="" class="letra">o</a>
-                        <a href="" class="letra">p</a>
-                        <a href="" class="letra">q</a>
-                        <a href="" class="letra">r</a>
-                        <a href="" class="letra">s</a>
-                        <a href="" class="letra">t</a>
-                        <a href="" class="letra">u</a>
-                        <a href="" class="letra">v</a>
-                        <a href="" class="letra">w</a>
-                        <a href="" class="letra">x</a>
-                        <a href="" class="letra">y</a>
-                        <a href="" class="letra">z</a>
+                        <a href="a" class="letra">a</a>
+                        <a href="b" class="letra">b</a>
+                        <a href="c" class="letra">c</a>
+                        <a href="d" class="letra">d</a>
+                        <a href="e" class="letra">e</a>
+                        <a href="f" class="letra">f</a>
+                        <a href="g" class="letra">g</a>
+                        <a href="h" class="letra">h</a>
+                        <a href="i" class="letra">i</a>
+                        <a href="j" class="letra">j</a>
+                        <a href="k" class="letra">k</a>
+                        <a href="l" class="letra">l</a>
+                        <a href="m" class="letra">m</a>
+                        <a href="n" class="letra">n</a>
+                        <a href="ñ" class="letra">ñ</a>
+                        <a href="o" class="letra">o</a>
+                        <a href="p" class="letra">p</a>
+                        <a href="q" class="letra">q</a>
+                        <a href="r" class="letra">r</a>
+                        <a href="s" class="letra">s</a>
+                        <a href="t" class="letra">t</a>
+                        <a href="u" class="letra">u</a>
+                        <a href="v" class="letra">v</a>
+                        <a href="w" class="letra">w</a>
+                        <a href="x" class="letra">x</a>
+                        <a href="y" class="letra">y</a>
+                        <a href="z" class="letra">z</a>
                     </section>
                 </div>
             </div>
