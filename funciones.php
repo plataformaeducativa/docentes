@@ -1,8 +1,7 @@
 <?php
 class docente{
-	static function verprofesores($filtro1){
-		if($filtro1=="true"){ $filtro = "tutoresvirtuales='1' and"; }
-		$respcont = mysql_query("select * from comp_docente where $filtro periodo20141='1' ORDER BY apellido ASC");
+	static function verprofesores(){
+		$respcont = mysql_query("select * from comp_docente ORDER BY apellido ASC");
 		while($profesor = mysql_fetch_array($respcont)){ ?>
 			<div class="col-1-3 space">
 			    <div class="content fondito">
@@ -21,7 +20,7 @@ class docente{
 	static function verfoto($id){
 		$respcont = mysql_query("select * from comp_docente where id_docente='$id'");
 		$foto = mysql_fetch_array($respcont);
-		if(!empty($foto['foto'])){return "http://docentes.plataforma.edu.pe/fotos/".$foto['foto'];}
+		if(!empty($foto['foto'])){return "http://plataforma.edu.pe/sistema/archivos/docentes/fotos/".$foto['foto'];}
 		else {return "http://docentes.plataforma.edu.pe/img/sin-perfil.jpg";}
 	}
 }

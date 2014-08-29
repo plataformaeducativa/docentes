@@ -1,5 +1,5 @@
 <?php
-    include "../admin/config.php"; include "funciones.php";
+    include "config.php"; include "funciones.php";
     $respuesta = new stdClass();
     if($_GET['tipo']=="profesor"){
         $respcont = mysql_query("select * from comp_docente where id_docente='".$_GET['id']."'");
@@ -43,9 +43,9 @@
                     <div class="col-9-12 gridcorrec1">
                        <div class="content horario">
                             <div class="horario_tab">
-                                <a href="http://docentes.plataforma.edu.pe/horarios/'.$profesor['horario'].'" target="_blank" title="Ver el horario más grande" class="azul-claro"><span class="icon-calendar"></span></a>
+                                <a href="http://plataforma.edu.pe/sistema/archivos/docentes/horarios/'.$profesor['horario'].'" target="_blank" title="Ver el horario más grande" class="azul-claro"><span class="icon-calendar"></span></a>
                             </div>
-                            <iframe src="http://docentes.plataforma.edu.pe/horarios/'.$profesor['horario'].'" width="100%" height="335px" frameborder="0"></iframe>
+                            <embed width="100%" height="335px" name="plugin" src="http://plataforma.edu.pe/sistema/archivos/docentes/horarios/'.$profesor['horario'].'" type="application/pdf">
                        </div>
                     </div>
                 </div>

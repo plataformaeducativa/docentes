@@ -1,4 +1,4 @@
-<?php include "../admin/config.php"; include "funciones.php"; ?>
+<?php include "config.php"; include "funciones.php"; ?>
 <!doctype html>
 <html lang="es">
 <head>
