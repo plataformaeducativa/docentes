@@ -36,6 +36,8 @@ transform()
 	ms-transform arguments
 	o-transform arguments
 	transform arguments
+h2
+	margin: 10px 0px 10px 0px
 body
 	background #45505C
 	font-family "Open Sans"
@@ -85,6 +87,7 @@ body
 	margin 5px 0px
 	padding 10px 10px
 	// width 8.5em
+	text-decoration none
 	&:hover
 		opacity .92
 		cursor pointer
@@ -260,8 +263,9 @@ body
 		border-color #cbd6e7
 		color #c41200
 	.lista
-		padding 0px
-		margin 10px 0px 5px 0px
+		padding: 0
+		margin: 10px auto 5px auto
+		width: 90%
 		li
 			text-align left
 			padding 5px 0px
@@ -287,6 +291,45 @@ body
 			text-decoration none
 			span
 				color #F00
+// nuevo
+.center
+	text-align center
+.atras
+	color #fff
+	display inline-block
+	zoom 1
+	font-size 18px
+	height 30px
+	line-height 30px
+	padding 0 15px
+	position relative
+	cursor pointer
+	border none
+	background #2ecc71
+	box-shadow 0px 1px 5px 0px #5A5A5A
+	text-decoration none
+	margin: 10px 0px 10px 10px
+	&:before
+		border-right-color #2ecc71
+		border-bottom 15px solid transparent
+		border-right 10px solid #2ecc71
+		border-top 15px solid transparent
+		content ""
+		position absolute
+		right 100%
+		top 0
+.video
+	position: relative
+	padding-bottom: 56.25%
+	padding-top: 30px
+	height: 0
+	overflow: hidden
+	& iframe, & object, & embed
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
 footer
 	background-color #3b65a7
 	border-radius 0px 0px 4px 4px

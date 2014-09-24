@@ -29,7 +29,7 @@
                 <div class="col-3-12 blo-primero">
                     <section class="buscador">
                         <form method="post" id="search">
-                            <input type="search" name="p" class="input" id="bc" autocomplete="off" required placeholder="Buscar Ejem: Medina">
+                            <input type="search" name="p" class="input" id="bc" autocomplete="off" required placeholder="Buscar Ejm: Medina">
                         </form>
                     </section>
                 </div>

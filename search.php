@@ -1,5 +1,5 @@
 <?php
-include "../admin/config.php"; include "funciones.php";
+include "config.php"; include "funciones.php";
 $palabra = $_POST['p'];
 $respuesta = new stdClass();
 $respuesta->mensaje = '
